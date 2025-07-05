@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>웹 페이지 기본 템플릿</title>
+  <style>
+    /* 간단한 기본 스타일 */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 헤더 영역 -->
+  <header>
+    <h1>웹 페이지의 헤더</h1>
+
+    <!-- 네비게이션 메뉴 -->
+    <nav>
+      <ul>
+        <li><a href="#">홈</a></li>
+        <li><a href="#">서비스</a></li>
+        <li><a href="#">문의</a></li>
+      </ul>
+    </nav>
+
+    <!-- 검색창 -->
+    <label for="searchbox">검색하기</label>
+    <input type="text" id="searchbox" name="searchbox" placeholder="검색">
+    <input type="button" id="search" name="search" value="검색">
+  </header>
+
+  <!-- 본문 영역 -->
+  <section>
+    <h2>본문 섹션</h2>
+    <p>본문 내용이 여기에 들어갑니다.</p>
+  </section>
+
+<!-- 본문 영역 -->
+<section>
+    <h2>본문 섹션2</h2>
+    <p>본문2 내용이 여기에 들어갑니다.</p>
+  </section>
+
+  <!-- 푸터 영역 -->
+  <footer>
+    <p>&copy; 2025 웹 사이트. 모든 권리 보유.</p>
+  </footer>
+
+</body>
+</html>
