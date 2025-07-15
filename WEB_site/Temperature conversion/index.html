@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form>
+        <h1>Temperature conversion!</h1>
+        <input type="number" id="temInput" value="0"><br>
+        <!--라디오 여러개에서 어떤 것을 선택했는지 가져오려면?-->
+        <input type="radio" name="temperature" value="C" id="cRadio">
+        <label for="cRadio">Celslus -> Fahrenhelt</label><br>
+        
+        <input type="radio" name="temperature" value="F" id="fRadio">
+        <label id="fRadio">Fahrenhelt -> Celslus</label><br>
+        
+        <button type="button" onclick="convert()">submit</button><br>
+        
+        <p id="resultP">Select a unit</p>
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+</html>
