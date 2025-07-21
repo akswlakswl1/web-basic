@@ -1,0 +1,26 @@
+body{
+    background-image: url('https://media.triple.guide/triple-cms/c_limit,f_auto,h_1024,w_1024/c479247e-e5e4-49ae-8d95-6dba7caaedb8.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(3px);
+    background-color: rgba(128, 128, 128, 0.1);
+    width: 100%;
+}
